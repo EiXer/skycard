@@ -81,13 +81,13 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 
     (function(){
         var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),
-        Object.assign(t,{render:function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"main",attrs:{id:"main"}},[n("Header"),t._v(" "),n("Notice",
+        Object.assign(t,{render:function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"main",attrs:{id:"main"}},[n("Header"),t._v(" "),n("",
         
-        [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Write a letter for your Sky friends at "),
+        [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" "),
         
         n("a",{attrs:{href:"https://thatskywish.netlify.app/"}},
         
-        [t._v("ThatSkyWish")])]},
+        [t._v("")])]},
         
         proxy:!0},{key:"jp",fn:function()
         
@@ -123,6 +123,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
             {key:"jp",fn:function(){return[n("p",[n("strong",[t._v("Skyの友達に手紙を書く")]),
             t._v(" この2年間、世界は誰かが私たちを置き去りにすることがいかに簡単であったかを私たちに示しました。 手遅れになる前に、Skyの友達や愛する人に暖かい言葉を送ってください。 ")]),t._v(" "),
             n("p",[t._v(" 今すぐ "),
+
             n("a",{attrs:{href:"https://thatskywish.netlify.app/"}},[t._v("ThatSkyWish")]),t._v(" で書いてください ")])]},proxy:!0}],null,!1,3846879279)}),t._v(" "),
             n("Button",{on:{click:function(e){t.showNewModal=!1}}},
             [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Close ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クローズ ")]},proxy:!0}],null,!1,4085021994)})],1)],1)]):t._e()],1)},staticRenderFns:[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("footer",[n("p",[t._v(" "),n("a",{attrs:{href:"",target:"_blank",rel:"noreferrer noopener"}},[t._v("")]),t._v("")]),t._v(" "),n("p",[t._v("Skycard is not affiliated with ThatGameCompany.")]),t._v(" "),n("p",[t._v("ThatSkyGame / Sky: Children of The Light is a trademark of ThatGameCompany.")]),t._v(" "),n("p",[t._v("Google Analytics is used to measure the number of visitors of this website.")]),t._v(" "),n("p",[t._v("Skycard and its affiliations are not responsible for the damage caused by using this software.")])])}],_compiled:!0,_scopeId:"data-v-11182f",functional:void 0});})();
