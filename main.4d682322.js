@@ -49,11 +49,12 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
     n=r(require("./AboutEntry"));
 
     function r(e){return e&&e.__esModule?e:{default:e}}
-    var o={name:"Skycard",components:{AboutEntry:n.default,OnlineToggles:a.default,Toggle:t.default,Trans:e.default},data:function(){return{avatarDataUrl:null,language:"English and a bit of Japanese",activeBackground:1}},
+    var o={name:"Skycard",components:{AboutEntry:n.default,OnlineToggles:a.default,Toggle:t.default,Trans:e.default},data:function(){return{avatarDataUrl:null,language:"English and a bit of Japanese",}},
     
     //computed:{backgroundImage:function(){return"linear-gradient(to bottom, #ecea, #eee), url('background/".concat(this.activeBackground,".png')")}},
    // computed:{backgroundImage:function(){return" url('background".concat(this.activeBackground,".png')")}},
 
+   computed:{backgroundImage:function(){return"url('skycard/background.png')"}},
     methods:{cycleBackground:function(){this.activeBackground++,this.activeBackground>=6&&(this.activeBackground=1)},
     promptFile:function(){this.$refs.file.click()},loadFile:function(){
         var e=this,t=this.$refs.file.files,a=new FileReader;a.addEventListener("loadend",function(){e.avatarDataUrl=a.result}),a.readAsDataURL(t[0])}}};
@@ -162,7 +163,24 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
         [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v("  ")]},proxy:!0},
 
         {key:"jp",fn:function(){
-            return[t._v(" 背景を変更する ")]},proxy:!0}])})],1),t._v(" "),n("Button",{staticClass:"right",on:{click:function(e){return t.renderSkycard()}}},[n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Generate SORA SkyCard ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" ダウンロード ")]},proxy:!0}])})],1)],1),t._v(" "),n("div",{directives:[{name:"show",rawName:"v-show",value:t.render,expression:"render"}],ref:"canvasContainer",staticClass:"canvas-container"},[n("img",{ref:"canvasRenderer",staticClass:"canvas-renderer",attrs:{alt:""}}),t._v(" "),n("Button",{on:{click:function(e){t.render=!1}}},[n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Close ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クローズ ")]},proxy:!0}])})],1)],1),t._v(" "),t._m(0),t._v(" "),t.showNewModal?n("div",{staticClass:"modal",on:{click:function(e){if(e.target!==e.currentTarget)return null;t.showNewModal=!1}}},
+            return[t._v(" 背景を変更する ")]},proxy:!0}])})],1),t._v(" "),
+            
+            n("Button",{staticClass:"right",on:{click:function(e){return t.renderSkycard()}}},
+            
+            [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Generate SORA SkyCard ")]},proxy:!0},
+            
+            
+            {key:"jp",fn:function(){return[t._v(" ダウンロード ")]},proxy:!0}])})],1)],1),t._v(" "),
+            
+            n("div",{directives:[{name:"show",rawName:"v-show",value:t.render,expression:"render"}],ref:"canvasContainer",staticClass:"canvas-container"},
+            
+            [n("img",{ref:"canvasRenderer",staticClass:"canvas-renderer",attrs:{alt:""}}),t._v(" "),
+            
+            n("Button",{on:{click:function(e){t.render=!1}}},
+            
+            [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Close ")]},proxy:!0},
+            
+            {key:"jp",fn:function(){return[t._v(" クローズ ")]},proxy:!0}])})],1)],1),t._v(" "),t._m(0),t._v(" "),t.showNewModal?n("div",{staticClass:"modal",on:{click:function(e){if(e.target!==e.currentTarget)return null;t.showNewModal=!1}}},
             
             [n("div",{staticClass:"modal-content"},
             [n("LangSwitch"),t._v(" "),

@@ -29,7 +29,7 @@ img[data-v-5c29a0]{width:100%}
 .skycard-container[data-v-11182f]{padding:16px;}
 .canvas-container[data-v-11182f]{position:fixed;top:0;left:0;height:100vh;width:100%;text-align:center;background:rgba(0,0,0,.8);padding:16px;box-sizing:border-box;z-index:10;
 }
-.canvas-renderer[data-v-11182f]{width:100%;height:75%;object-fit:contain; border-radius: 4px solid yellow;}
+.canvas-renderer[data-v-11182f]{width:100%;height:75%;object-fit:contain;}
 
 .download-button[data-v-11182f]{margin:0 16px;display:flex}
 .download-button .left[data-v-11182f],.download-button .right[data-v-11182f]{flex:1 1 auto}.download-button .left[data-v-11182f]{margin-right:4px}
