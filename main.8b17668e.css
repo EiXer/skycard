@@ -14,7 +14,7 @@ img[data-v-5c29a0]{width:100%}
 .skycard[data-v-14adcc]{background-size:cover;border:1px solid #aaa;border-radius:4px}
 .avatar[data-v-14adcc]{margin:32px 32px 0;text-align:center}
 .avatar img[data-v-14adcc]{object-fit:cover}
-.avatar-upload[data-v-14adcc],.avatar img[data-v-14adcc]{height:350px;width:700px;margin:auto;border-radius:4px}
+.avatar-upload[data-v-14adcc],.avatar img[data-v-14adcc]{height:30%;width:70%px;margin:auto;border-radius:4px}
 .avatar-upload[data-v-14adcc]{justify-content:center;display:flex;align-items:center;background:#eee;padding:32px;box-sizing:border-box}
 .name[data-v-14adcc]{margin-top:8px;text-align:center;padding:0 16px}
 .nickname[data-v-14adcc],.title[data-v-14adcc]{margin:0;padding:0}
