@@ -73,7 +73,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
             
             e("div",{staticClass:"avatar-upload",on:{click:function(a){return t.promptFile()}}},
             
-            [e("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Frame for picture ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クリックして画像を選択します ")]},proxy:!0}],null,!1,4003134721)})],1),t._v(" "),
+            [e("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Select a picture ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クリックして画像を選択します ")]},proxy:!0}],null,!1,4003134721)})],1),t._v(" "),
             
             e("input",{ref:"file",attrs:{type:"file",hidden:""},on:{change:function(a){return t.loadFile()}}})]),t._v(" "),t._m(0),t._v(" "),
             
@@ -81,13 +81,13 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
             
             [e("div",{staticClass:"left"},
             
-            [e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"About","label-jp":"約",value:"Hi, I am... "}}),t._v(" "),
+            [e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Joined SORA since","label-jp":"約",value:" January 2020 "}}),t._v(" "),
             
             e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Played Since","label-jp":"以来プレイ",value:"August 2019"}}),t._v(" "),
-
-            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Played Since","label-jp":"以来プレイ",value:"August 2019"}}),t._v(" "),
             
-            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Language","label-jp":"言語",value:"English, a bit of Japanese"}})],1),t._v(" "),
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Language","label-jp":"以来プレイ",value:"English, a bit of Japanese"}}),t._v(" "),
+            
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"About","label-jp":"言語",value:"Hello, I'm..."}})],1),t._v(" "),
             
             e("div",{staticClass:"right"},[e("div",{staticClass:"online-toggles"},
             

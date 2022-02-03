@@ -11,7 +11,7 @@
 img[data-v-5c29a0]{width:100%}
 .label[data-v-d712ba]{margin:0;padding:0}
 .content[data-v-d712ba],.label[data-v-d712ba]{font-size:14px}
-.skycard[data-v-14adcc]{background-size:cover;border:1px solid #aaa;border-radius:4px}
+.skycard[data-v-14adcc]{background-size:cover;border:1px solid #aaa;border-radius:4px; width: 100%;}
 .avatar[data-v-14adcc]{margin:32px 32px 0;text-align:center}
 .avatar img[data-v-14adcc]{object-fit:cover}
 .avatar-upload[data-v-14adcc],.avatar img[data-v-14adcc]{height:30%;width:70%;margin:auto;border-radius:4px}
