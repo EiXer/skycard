@@ -51,7 +51,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
     function r(e){return e&&e.__esModule?e:{default:e}}
     var o={name:"Skycard",components:{AboutEntry:n.default,OnlineToggles:a.default,Toggle:t.default,Trans:e.default},data:function(){return{avatarDataUrl:null,language:"English and a bit of Japanese",activeBackground:1}},
     
-    computed:{backgroundImage:function(){return"linear-gradient(to bottom, #ecea, #effe), url('background/".concat(this.activeBackground,".png')")}},
+    //computed:{backgroundImage:function(){return"linear-gradient(to bottom, #ecea, #eee), url('background/".concat(this.activeBackground,".png')")}},
+   // computed:{backgroundImage:function(){return" url('background".concat(this.activeBackground,".png')")}},
+
     methods:{cycleBackground:function(){this.activeBackground++,this.activeBackground>=6&&(this.activeBackground=1)},
     promptFile:function(){this.$refs.file.click()},loadFile:function(){
         var e=this,t=this.$refs.file.files,a=new FileReader;a.addEventListener("loadend",function(){e.avatarDataUrl=a.result}),a.readAsDataURL(t[0])}}};
@@ -81,13 +83,13 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
             
             [e("div",{staticClass:"left"},
             
-            [e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Joined SORA since","label-jp":"約",value:" January 2020 "}}),t._v(" "),
+            [e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Joined SORA since:","label-jp":"約",value:" January 2020 "}}),t._v(" "),
             
-            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Played Since","label-jp":"以来プレイ",value:"August 2019"}}),t._v(" "),
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Played Since:","label-jp":"以来プレイ",value:"August 2019"}}),t._v(" "),
             
-            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Language","label-jp":"以来プレイ",value:"English, a bit of Japanese"}}),t._v(" "),
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Language:","label-jp":"以来プレイ",value:"English, a bit of Japanese"}}),t._v(" "),
             
-            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"About","label-jp":"言語",value:"Hello, I'm..."}})],1),t._v(" "),
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"About me:","label-jp":"言語",value:"Hello, I'm..."}})],1),t._v(" "),
             
             e("div",{staticClass:"right"},[e("div",{staticClass:"online-toggles"},
             
@@ -97,9 +99,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
                 
                 [a("h3",{staticClass:"nickname",attrs:{contenteditable:"true",onclick:"document.execCommand('selectAll',false,null)"}},
                 
-                [this._v(" Your Sky Name ")]),this._v(" "),a("h4",{staticClass:"title",attrs:{contenteditable:"true",onclick:"document.execCommand('selectAll',false,null)"}},
+                [this._v(" Your Sky name here")]),this._v(" "),a("h4",{staticClass:"title",attrs:{contenteditable:"true",onclick:"document.execCommand('selectAll',false,null)"}},
                 
-                [this._v(" Hi, I'm a wandering pianist! ")])])}],_compiled:!0,_scopeId:"data-v-14adcc",functional:void 0});})();
+                )])}],_compiled:!0,_scopeId:"data-v-14adcc",functional:void 0});})();
 
 
 
@@ -160,7 +162,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
         [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v("  ")]},proxy:!0},
 
         {key:"jp",fn:function(){
-            return[t._v(" 背景を変更する ")]},proxy:!0}])})],1),t._v(" "),n("Button",{staticClass:"right",on:{click:function(e){return t.renderSkycard()}}},[n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Download ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" ダウンロード ")]},proxy:!0}])})],1)],1),t._v(" "),n("div",{directives:[{name:"show",rawName:"v-show",value:t.render,expression:"render"}],ref:"canvasContainer",staticClass:"canvas-container"},[n("img",{ref:"canvasRenderer",staticClass:"canvas-renderer",attrs:{alt:""}}),t._v(" "),n("Button",{on:{click:function(e){t.render=!1}}},[n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Close ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クローズ ")]},proxy:!0}])})],1)],1),t._v(" "),t._m(0),t._v(" "),t.showNewModal?n("div",{staticClass:"modal",on:{click:function(e){if(e.target!==e.currentTarget)return null;t.showNewModal=!1}}},
+            return[t._v(" 背景を変更する ")]},proxy:!0}])})],1),t._v(" "),n("Button",{staticClass:"right",on:{click:function(e){return t.renderSkycard()}}},[n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Generate SORA SkyCard ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" ダウンロード ")]},proxy:!0}])})],1)],1),t._v(" "),n("div",{directives:[{name:"show",rawName:"v-show",value:t.render,expression:"render"}],ref:"canvasContainer",staticClass:"canvas-container"},[n("img",{ref:"canvasRenderer",staticClass:"canvas-renderer",attrs:{alt:""}}),t._v(" "),n("Button",{on:{click:function(e){t.render=!1}}},[n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Close ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クローズ ")]},proxy:!0}])})],1)],1),t._v(" "),t._m(0),t._v(" "),t.showNewModal?n("div",{staticClass:"modal",on:{click:function(e){if(e.target!==e.currentTarget)return null;t.showNewModal=!1}}},
             
             [n("div",{staticClass:"modal-content"},
             [n("LangSwitch"),t._v(" "),
@@ -176,7 +178,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 
             n("a",{attrs:{href:"https://thatskywish.netlify.app/"}},[t._v("ThatSkyWish")]),t._v(" で書いてください ")])]},proxy:!0}],null,!1,3846879279)}),t._v(" "),
             n("Button",{on:{click:function(e){t.showNewModal=!1}}},
-            [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Close ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クローズ ")]},proxy:!0}],null,!1,4085021994)})],1)],1)]):t._e()],1)},staticRenderFns:[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("footer",[n("p",[t._v(" "),n("a",{attrs:{href:"",target:"_blank",rel:"noreferrer noopener"}},[t._v("")]),t._v("")]),t._v(" "),n("p",[t._v("Skycard is not affiliated with ThatGameCompany.")]),t._v(" "),n("p",[t._v("ThatSkyGame / Sky: Children of The Light is a trademark of ThatGameCompany.")]),t._v(" "),n("p",[t._v("Google Analytics is used to measure the number of visitors of this website.")]),t._v(" "),n("p",[t._v("Skycard and its affiliations are not responsible for the damage caused by using this software.")])])}],_compiled:!0,_scopeId:"data-v-11182f",functional:void 0});})();
+            [n("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Close ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クローズ ")]},proxy:!0}],null,!1,4085021994)})],1)],1)]):t._e()],1)},staticRenderFns:[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("footer",[n("p",[t._v(" "),n("a",{attrs:{href:"",target:"_blank",rel:"noreferrer noopener"}},[t._v("")]),t._v("")]),t._v(" "),n("p",[t._v("SORA Skycard is not affiliated with ThatGameCompany.")]),t._v(" "),n("p",[t._v("ThatSkyGame / Sky: Children of The Light is a trademark of ThatGameCompany.")]),t._v(" "),n("p",[t._v("Google Analytics is used to measure the number of visitors of this website.")]),t._v(" "),n("p",[t._v("SORA Skycard and its affiliations are not responsible for the damage caused by using this software.")])])}],_compiled:!0,_scopeId:"data-v-11182f",functional:void 0});})();
 
     },{"./header/Header":"ZNk2","../components/text/Notice":"aePz","../components/text/Trans":"Deaz","./card/Skycard":"OQ9w","../components/Button":"VMQb","html2canvas":"m6po","./header/LangSwitch":"vq0Y"}],"PFbx":[function(require,module,exports) {
     "use strict";var e=u(require("vue")),n=u(require("./modules/Main"));function u(e){return e&&e.__esModule?e:{default:e}}var a=new e.default({el:"#app",render:function(e){return e(n.default)},data:function(){return{lang:"en"}},methods:{changeLanguage:function(e){this.lang=e}}});window.app=a;
