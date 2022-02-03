@@ -14,7 +14,7 @@ img[data-v-5c29a0]{width:100%}
 .skycard[data-v-14adcc]{background-size:cover;border:1px solid #aaa;border-radius:4px}
 .avatar[data-v-14adcc]{margin:32px 32px 0;text-align:center}
 .avatar img[data-v-14adcc]{object-fit:cover}
-.avatar-upload[data-v-14adcc],.avatar img[data-v-14adcc]{height:30%;width:70%px;margin:auto;border-radius:4px}
+.avatar-upload[data-v-14adcc],.avatar img[data-v-14adcc]{height:30%;width:70%;margin:auto;border-radius:4px}
 .avatar-upload[data-v-14adcc]{justify-content:center;display:flex;align-items:center;background:#eee;padding:32px;box-sizing:border-box}
 .name[data-v-14adcc]{margin-top:8px;text-align:center;padding:0 16px}
 .nickname[data-v-14adcc],.title[data-v-14adcc]{margin:0;padding:0}
@@ -40,3 +40,5 @@ footer p[data-v-11182f]:not(:first-child){opacity:.5}
 .modal-content[data-v-11182f]{background:#fff;padding:16px;color:#333;margin:32px;border-radius:4px;max-width:50%}:root{--accent:#3af;--accent-link:#2271a9}[contenteditable]:focus{outline:solid 1px var(--accent)}
 body{margin:0;padding:0;font-family:Noto Sans JP,sans-serif}
 a{color:var(--accent-link)}
+@media only screen and (min-width:767px){
+.main{width:820px;margin:auto}}
