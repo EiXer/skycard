@@ -40,5 +40,3 @@ footer p[data-v-11182f]:not(:first-child){opacity:.5}
 .modal-content[data-v-11182f]{background:#fff;padding:16px;color:#333;margin:32px;border-radius:4px;max-width:50%}:root{--accent:#3af;--accent-link:#2271a9}[contenteditable]:focus{outline:solid 1px var(--accent)}
 body{margin:0;padding:0;font-family:Noto Sans JP,sans-serif}
 a{color:var(--accent-link)}
-@media only screen and (min-width:767px){
-.main{width:100%;margin:auto}}
