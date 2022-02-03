@@ -9,7 +9,16 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
     (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this,a=t.$createElement,c=t._self._c||a;return c("div",{staticClass:"lang-switch"},[c("a",{staticClass:"switch",class:{active:"en"===t.activeLang},on:{click:function(a){return t.changeLanguage("en")}}},[t._v(" En ")]),t._v(" "),c("a",{staticClass:"switch",class:{active:"jp"===t.activeLang},on:{click:function(a){return t.changeLanguage("jp")}}},[t._v(" 日本語 ")])])},staticRenderFns:[],_compiled:!0,_scopeId:"data-v-14c06c",functional:void 0});})();
     },{}],"ZNk2":[function(require,module,exports) {
     "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=r(require("../../components/text/Trans")),t=r(require("./LangSwitch"));function r(e){return e&&e.__esModule?e:{default:e}}var a={name:"Header",components:{LangSwitch:t.default,Trans:e.default}};exports.default=a;
-    (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("header",{staticClass:"header"},[a("div",{staticClass:"left"},[a("h1",{staticClass:"title"},[t._v(" Skycard ")]),t._v(" "),a("h2",{staticClass:"subtitle"},[a("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Create and Share Your Sky Player Card ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" Sky Playerカードを作成して共有する ")]},proxy:!0}])})],1)]),t._v(" "),a("div",{staticClass:"right"},[a("LangSwitch")],1)])},staticRenderFns:[],_compiled:!0,_scopeId:"data-v-b69321",functional:void 0});})();
+
+    (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("header",{staticClass:"header"},
+    
+    [a("div",{staticClass:"left"},
+    
+    [a("h1",{staticClass:"title"},[t._v(" S🔆RA SKY CARD ")]),t._v(" "),
+    
+    a("h2",{staticClass:"subtitle"},
+    
+    [a("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Create and share your Sky player card ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" Sky Playerカードを作成して共有する ")]},proxy:!0}])})],1)]),t._v(" "),a("div",{staticClass:"right"},[a("LangSwitch")],1)])},staticRenderFns:[],_compiled:!0,_scopeId:"data-v-b69321",functional:void 0});})();
     },{"../../components/text/Trans":"Deaz","./LangSwitch":"vq0Y"}],"aePz":[function(require,module,exports) {
     "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e={name:"Notice"};exports.default=e;
     (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"notice"},[this._t("default")],2)},staticRenderFns:[],_compiled:!0,_scopeId:"data-v-b982f5",functional:void 0});})();
@@ -18,6 +27,8 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
     (function(){var e=exports.default||module.exports;"function"==typeof e&&(e=e.options),Object.assign(e,{render:function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",{staticClass:"toggle",on:{click:function(t){e.active=!e.active}}},[e.active?e._t("on"):e._e(),e._v(" "),e.active?e._e():e._t("off")],2)},staticRenderFns:[],_compiled:!0,_scopeId:"data-v-0ee7d3",functional:void 0});})();
     },{}],"nQQR":[function(require,module,exports) {
     "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=o(require("../../components/toggle/Toggle"));function o(e){return e&&e.__esModule?e:{default:e}}var t={name:"OnlineToggles",components:{Toggle:e.default}};exports.default=t;
+
+
     (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"toggles"},[e("Toggle",{staticClass:"toggle",scopedSlots:this._u([{key:"on",fn:function(){return[e("img",{attrs:{src:"/On.4518bf68.png",alt:""}})]},proxy:!0},{key:"off",fn:function(){return[e("img",{attrs:{src:"/Off.924c864b.png",alt:""}})]},proxy:!0}])}),this._v(" "),e("Toggle",{scopedSlots:this._u([{key:"on",fn:function(){return[e("img",{attrs:{src:"/On.f52da3e3.png",alt:""}})]},proxy:!0},{key:"off",fn:function(){return[e("img",{attrs:{src:"/Off.3597f346.png",alt:""}})]},proxy:!0}])}),this._v(" "),e("Toggle",{scopedSlots:this._u([{key:"on",fn:function(){return[e("img",{attrs:{src:"/On.61541273.png",alt:""}})]},proxy:!0},{key:"off",fn:function(){return[e("img",{attrs:{src:"/Off.6754d86f.png",alt:""}})]},proxy:!0}])})],1)},staticRenderFns:[],_compiled:!0,_scopeId:"data-v-5c29a0",functional:void 0});})();
     },{"../../components/toggle/Toggle":"iWTm","./../../../images/states/morning/On.png":[["On.4518bf68.png","cC7X"],"cC7X"],"./../../../images/states/morning/Off.png":[["Off.924c864b.png","AU0I"],"AU0I"],"./../../../images/states/day/On.png":[["On.f52da3e3.png","LmSo"],"LmSo"],"./../../../images/states/day/Off.png":[["Off.3597f346.png","VYpg"],"VYpg"],"./../../../images/states/night/On.png":[["On.61541273.png","XyIn"],"XyIn"],"./../../../images/states/night/Off.png":[["Off.6754d86f.png","kd5M"],"kd5M"]}],"WWPX":[function(require,module,exports) {
     "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;
@@ -49,12 +60,51 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
         var t=exports.default||module.exports;
         "function"==typeof t&&(t=t.options),
         Object.assign(t,{render:function(){var t=this,a=t.$createElement,e=t._self._c||a;
+
             return e("div",{ref:"cardBase",staticClass:"skycard",style:{backgroundImage:t.backgroundImage}},
 
             [e("div",{staticClass:"avatar"},
+            
             [t.avatarDataUrl?e("img",
             {attrs:{src:t.avatarDataUrl,alt:"Avatar"},
-            on:{click:function(a){return t.promptFile()}}}):t._e(),t._v(" "),t.avatarDataUrl?t._e():e("div",{staticClass:"avatar-upload",on:{click:function(a){return t.promptFile()}}},[e("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Click to select picture ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クリックして画像を選択します ")]},proxy:!0}],null,!1,4003134721)})],1),t._v(" "),e("input",{ref:"file",attrs:{type:"file",hidden:""},on:{change:function(a){return t.loadFile()}}})]),t._v(" "),t._m(0),t._v(" "),e("div",{staticClass:"about"},[e("div",{staticClass:"left"},[e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"About","label-jp":"約",value:"Hi, I am... "}}),t._v(" "),e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Played Since","label-jp":"以来プレイ",value:"August 2019"}}),t._v(" "),e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Language","label-jp":"言語",value:"English, a bit of Japanese"}})],1),t._v(" "),e("div",{staticClass:"right"},[e("div",{staticClass:"online-toggles"},[e("OnlineToggles")],1)])])])},staticRenderFns:[function(){var t=this.$createElement,a=this._self._c||t;return a("div",{staticClass:"name"},[a("h3",{staticClass:"nickname",attrs:{contenteditable:"true",onclick:"document.execCommand('selectAll',false,null)"}},[this._v(" Your name ")]),this._v(" "),a("h4",{staticClass:"title",attrs:{contenteditable:"true",onclick:"document.execCommand('selectAll',false,null)"}},[this._v(" Hi, I'm a wandering pianist! ")])])}],_compiled:!0,_scopeId:"data-v-14adcc",functional:void 0});})();
+
+
+            on:{click:function(a){return t.promptFile()}}}):t._e(),t._v(" "),t.avatarDataUrl?t._e():
+            
+            e("div",{staticClass:"avatar-upload",on:{click:function(a){return t.promptFile()}}},
+            
+            [e("Trans",{scopedSlots:t._u([{key:"en",fn:function(){return[t._v(" Frame for picture ")]},proxy:!0},{key:"jp",fn:function(){return[t._v(" クリックして画像を選択します ")]},proxy:!0}],null,!1,4003134721)})],1),t._v(" "),
+            
+            e("input",{ref:"file",attrs:{type:"file",hidden:""},on:{change:function(a){return t.loadFile()}}})]),t._v(" "),t._m(0),t._v(" "),
+            
+            e("div",{staticClass:"about"},
+            
+            [e("div",{staticClass:"left"},
+            
+            [e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"About","label-jp":"約",value:"Hi, I am... "}}),t._v(" "),
+            
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Played Since","label-jp":"以来プレイ",value:"August 2019"}}),t._v(" "),
+
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Played Since","label-jp":"以来プレイ",value:"August 2019"}}),t._v(" "),
+            
+            e("AboutEntry",{staticClass:"entry",attrs:{"label-en":"Language","label-jp":"言語",value:"English, a bit of Japanese"}})],1),t._v(" "),
+            
+            e("div",{staticClass:"right"},[e("div",{staticClass:"online-toggles"},
+            
+            [e("OnlineToggles")],1)])])])},staticRenderFns:[function(){var t=this.$createElement,a=this._self._c||t;
+                
+                return a("div",{staticClass:"name"},
+                
+                [a("h3",{staticClass:"nickname",attrs:{contenteditable:"true",onclick:"document.execCommand('selectAll',false,null)"}},
+                
+                [this._v(" Your Sky Name ")]),this._v(" "),a("h4",{staticClass:"title",attrs:{contenteditable:"true",onclick:"document.execCommand('selectAll',false,null)"}},
+                
+                [this._v(" Hi, I'm a wandering pianist! ")])])}],_compiled:!0,_scopeId:"data-v-14adcc",functional:void 0});})();
+
+
+
+
+
     },{"../../components/text/Trans":"Deaz","../../components/toggle/Toggle":"iWTm","./OnlineToggles":"nQQR","./AboutEntry":"WWPX"}],"VMQb":[function(require,module,exports) {
     "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e={name:"Button"};exports.default=e;
     (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this,e=t.$createElement;return(t._self._c||e)("button",{staticClass:"button",on:{click:function(e){return t.$emit("click")}}},[t._t("default")],2)},staticRenderFns:[],_compiled:!0,_scopeId:"data-v-6cfc78",functional:void 0});})(); 
